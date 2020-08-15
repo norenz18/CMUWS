@@ -1,0 +1,117 @@
+.main .hero-container{
+   
+    height: 125vh;
+    background-image: url(./img/cmu2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.main .hero-container .plain marquee{
+    height: 8vh;
+    background-color: white;
+    box-shadow: 0 60px 80px rgb(59, 57, 57);
+
+}
+.main .hero-container .plain marquee h2{
+    font-weight: 700;
+    font-size: 25px;
+    color: #000;
+    margin: 0;
+    padding: 10px 0;  
+
+}
+
+.main .hero-container .nav-head .nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0 100px;
+   
+}
+.main .hero-container .nav-head .nav-list li{
+
+    margin: 20px 10px;
+    
+}
+.main .hero-container .nav-head .nav-list li a{
+    
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    transition: .2s ease-in;
+   
+}
+.main .hero-container .nav-head .nav-list li a:hover{
+    color: #fce80e;
+
+}
+.main .hero-container .nav-head .nav-list li a span{
+
+    color: #fce80e;
+}
+
+.main .hero-container .landing-page{
+
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    margin: 100px 0;
+  
+}
+
+.main .hero-container .landing-page .logo-container img{
+    
+    height: 250px;
+    
+}
+
+.main .hero-container .landing-page .text-container h1{
+
+   letter-spacing: 5px;
+    font-weight: 600;
+    font-size: 39px;
+    
+}
+.main .hero-container .landing-page .text-container h3{
+
+   
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+}
+.main .hero-container .nav-footer .foot-list{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #dcca07;
+    height: 50px;
+    margin: 0;
+    padding-top: 20px;
+
+    
+
+}
+
+.main .hero-container .nav-footer .foot-list li a{
+
+    color: #000;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    align-content: flex-end;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    transition: .2s ease-in;
+   
+  
+    
+}
+
+.main .hero-container .nav-footer .foot-list li a:hover{
+
+    color: whitesmoke;
+}

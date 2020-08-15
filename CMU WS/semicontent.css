@@ -1,0 +1,150 @@
+.main .footer-container{
+
+    background-color: #2a3148;
+  
+
+}
+
+.main .footer-container .img-container{
+
+    position: relative;
+    
+ 
+}
+
+.main .footer-container .img-container img{
+
+   height: 400px;
+   width: 100%;
+   filter: grayscale(0.6);
+   object-fit: cover;
+ 
+}
+
+
+.main .footer-container .img-container h1{
+    
+  
+    position: absolute;
+    border: 5px solid #dcca07;
+    padding: 20px 10px;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+  
+    
+    
+    
+}
+
+.main .footer-container .box-container{
+  
+
+    /* flex */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: -100px;
+    margin: 0;
+  
+  
+
+}
+.main .footer-container .box-container h2 a{
+
+    font-family: 'Patua One', cursive; 
+    font-weight: 600;
+    font-size: 35px;
+   
+}
+
+
+.main .footer-container .box-container h2 a:hover{
+
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.70);
+ 
+
+
+}
+.main .footer-container .box-container .box1 h2{
+
+    background-color: #25b3b8;
+    width: 300px;
+    text-align: center;
+    margin: 0;
+    padding: 80px 10px;
+    border-radius: 25px;
+
+   
+}
+
+.main .footer-container .box-container .box2 h2{
+
+    background-color:  #E4816D;
+    width: 300px;
+    text-align: center;
+    margin: 0;
+    padding: 80px 10px;
+    border-radius: 25px;
+    
+
+
+}
+.main .footer-container .box-container .box3 h2{
+
+    background-color: #9A4DA7;
+    width: 300px;
+    text-align: center;
+    margin: 0;
+    padding: 80px 10px;
+    border-radius: 25px;
+
+}
+
+.main .footer-container .footer{
+
+    margin-top: 200px;
+
+}
+
+.main .footer-container .footer .text-foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+.main .footer-container .footer .text-foot .details p a:hover{
+
+    text-decoration: underline;
+    color: blueviolet;
+}
+.main .footer-container .footer .text-foot .service p a:hover{
+
+    text-decoration: underline;
+    color: blueviolet;
+}
+.main .footer-container .footer .text-foot .help-desk p a:hover{
+
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.main .footer-container .footer .down-foot{
+
+    padding: 5px;
+    margin-top: 100px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 10px;
+    font-weight: 400;
+ 
+
+}
